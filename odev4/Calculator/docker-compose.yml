@@ -1,0 +1,6 @@
+services:
+  calculator:
+    image: calculatorapp:1.0
+    ports:
+      - "44:44"
+    restart: always
